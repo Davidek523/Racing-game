@@ -47,7 +47,7 @@ ENEMY_CAR = scale_image(pygame.image.load('Game Folder/data/npc/enemy_car.png'),
 
 WIDTH, HEIGHT = TRACK.get_width(), TRACK.get_height()
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("The Great BasceCamp Race")
+pygame.display.set_caption("The Great Race")
 
 MAIN_FONT = pygame.font.SysFont("grand9kpixelregular", 35)
 
