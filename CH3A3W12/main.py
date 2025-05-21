@@ -9,17 +9,17 @@ pygame.font.init()
 # pitstop
 # tire change
 
-GRASS = scale_image(pygame.image.load('data/backgrounds/desert_details.png'), 50)
-TRACK = scale_image(pygame.image.load('data/backgrounds/green_pixel_track.png'), 0.7)
+GRASS = scale_image(pygame.image.load('CH3A3W12/data/backgrounds/desert_details.png'), 50)
+TRACK = scale_image(pygame.image.load('CH3A3W12/data/backgrounds/green_pixel_track.png'), 0.7)
 
-TRACK_BORDER = scale_image(pygame.image.load('data/backgrounds/green_pixel_border_fixed.png'), 0.7)
+TRACK_BORDER = scale_image(pygame.image.load('CH3A3W12/data/backgrounds/green_pixel_border_fixed.png'), 0.7)
 TRACK_BORDER_MASK = pygame.mask.from_surface(TRACK_BORDER)
 
-PIT_STOP = scale_image(pygame.image.load('data/backgrounds/gas_station.png'), 0.7)
+PIT_STOP = scale_image(pygame.image.load('CH3A3W12/data/backgrounds/gas_station.png'), 0.7)
 PIT_STOP_POS = (0, 0)
 PIT_STOP_MASK = pygame.mask.from_surface(PIT_STOP)
 
-ROAD_CONE_1 = scale_image(pygame.image.load('data/props/road_cone.png'), 2)
+ROAD_CONE_1 = scale_image(pygame.image.load('CH3A3W12/data/props/road_cone.png'), 2)
 ROAD_CONE_1_POS = (30, 80)
 ROAD_CONE_MASK = pygame.mask.from_surface(ROAD_CONE_1)
 
@@ -37,13 +37,13 @@ ROAD_CONE_12_POS = (199, 620)
 ROAD_CONE_13_POS = (25, 415)
 
 
-FINISH = scale_image(pygame.image.load('data/props/finish_line.png'), 3)
+FINISH = scale_image(pygame.image.load('CH3A3W12/data/props/finish_line.png'), 3)
 FINISH_LINE_MASK = pygame.mask.from_surface(FINISH)
 FINISH_POS = (29, 280)
 
-PLAYER_CAR = scale_image(pygame.image.load('data/players/blue_car.png'), 1.7)
+PLAYER_CAR = scale_image(pygame.image.load('CH3A3W12/data/players/blue_car.png'), 1.7)
 
-ENEMY_CAR = scale_image(pygame.image.load('data/npc/enemy_car.png'), 1.7)
+ENEMY_CAR = scale_image(pygame.image.load('CH3A3W12/data/npc/enemy_car.png'), 1.7)
 
 WIDTH, HEIGHT = TRACK.get_width(), TRACK.get_height()
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
